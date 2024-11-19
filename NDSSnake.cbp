@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="test2" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="devkitpro_arm_compiler" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/test2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="devkitpro_arm_compiler" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+				<MakeCommands>
+					<Build command="$make -f $makefile" />
+					<CompileFile command="$make -f $makefile" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile" />
+					<SilentBuild command="$make -f $makefile &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Makefile" />
+		<Unit filename="Makefile.blocksds" />
+		<Unit filename="gfx/Apple.bmp" />
+		<Unit filename="gfx/Apple.grit" />
+		<Unit filename="gfx/Apple.img" />
+		<Unit filename="gfx/Apple.pal" />
+		<Unit filename="gfx/Snake.bmp" />
+		<Unit filename="gfx/Snake.grit" />
+		<Unit filename="gfx/Snake.img" />
+		<Unit filename="gfx/Snake.pal" />
+		<Unit filename="gfx/SnakeGround.bmp" />
+		<Unit filename="gfx/SnakeGround.grit" />
+		<Unit filename="gfx/SnakeGround.img" />
+		<Unit filename="gfx/SnakeGround.map" />
+		<Unit filename="gfx/SnakeGround.pal" />
+		<Unit filename="gfx/starField.bmp" />
+		<Unit filename="gfx/starField.grit" />
+		<Unit filename="gfx/starField.img">
+			<Option link="1" />
+		</Unit>
+		<Unit filename="gfx/starField.map">
+			<Option link="1" />
+		</Unit>
+		<Unit filename="gfx/starField.pal">
+			<Option link="1" />
+		</Unit>
+		<Unit filename="icon.bmp" />
+		<Unit filename="nitrofiles/Apple.bmp" />
+		<Unit filename="nitrofiles/Apple.grit" />
+		<Unit filename="nitrofiles/Apple.img" />
+		<Unit filename="nitrofiles/Apple.pal" />
+		<Unit filename="nitrofiles/MenuGround.bmp" />
+		<Unit filename="nitrofiles/MenuGround.grit" />
+		<Unit filename="nitrofiles/MenuGround.img" />
+		<Unit filename="nitrofiles/MenuGround.map" />
+		<Unit filename="nitrofiles/MenuGround.pal" />
+		<Unit filename="nitrofiles/Snake.bmp" />
+		<Unit filename="nitrofiles/Snake.grit" />
+		<Unit filename="nitrofiles/Snake.img" />
+		<Unit filename="nitrofiles/Snake.pal" />
+		<Unit filename="nitrofiles/SnakeGround.bmp" />
+		<Unit filename="nitrofiles/SnakeGround.grit" />
+		<Unit filename="nitrofiles/SnakeGround.img" />
+		<Unit filename="nitrofiles/SnakeGround.map" />
+		<Unit filename="nitrofiles/SnakeGround.pal" />
+		<Unit filename="nitrofiles/font.img" />
+		<Unit filename="nitrofiles/font.pal" />
+		<Unit filename="nitrofiles/font.png" />
+		<Unit filename="nitrofiles/starField.bmp" />
+		<Unit filename="nitrofiles/starField.grit" />
+		<Unit filename="nitrofiles/starField.img" />
+		<Unit filename="nitrofiles/starField.map" />
+		<Unit filename="nitrofiles/starField.pal" />
+		<Unit filename="source/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
